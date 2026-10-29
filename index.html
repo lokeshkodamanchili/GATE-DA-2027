@@ -18,13 +18,14 @@
       <button class="nav-btn" data-view="roadmap">🗺️ 123-Day Roadmap</button>
       <button class="nav-btn" data-view="sections">📚 7 Sections</button>
       <button class="nav-btn" data-view="resources">🔗 Resources</button>
+      <button class="nav-btn questions-nav" data-view="solvedQuestions">📚 1800+ SOLVED QUESTIONS</button>
       <button class="nav-btn" data-view="mocks">🧪 PYQs & Mocks</button>
       <button class="nav-btn" data-view="tracker">✅ Daily Tracker</button>
       <button class="nav-btn" data-view="gateDetails">🎯 GATE Details</button>
       <button class="nav-btn" data-view="syllabusPdf">📄 DA Syllabus PDF</button>
     </nav>
     <div class="sidebar-note">
-      <strong>Target</strong><br>Finish structured preparation by <b>05 Feb 2027</b>. PLANNED BY LOKI BHAAI
+      <strong>Target</strong><br>Finish structured preparation by <b>05 Feb 2027</b>. PLANNED BY BHAAI PDFS
     </div>
     <div class="sidebar-footer">Progress is saved in your browser.</div>
   </aside>
@@ -224,7 +225,7 @@
               class="pdf-frame"
               src="DA_SYLLABUS_2025_2024.pdf#toolbar=1&view=FitH"
               title="GATE DA Syllabus PDF & 2025 , 2024 QUESTION Papers">
-           </iframe> title="Official GATE 2027 DA Syllabus PDF  & 2025 , 2024 QUESTION Papers"></iframe>
+           </iframe>
         </div>
 
         <div class="card">
@@ -241,6 +242,45 @@
           </div>
           <div class="info-strip">This viewer uses the official IIT Madras PDF URL. If your browser blocks embedded PDFs, use <b>Open PDF</b>.</div>
         </div>
+      </div>
+    </section>
+
+    <section id="solvedQuestions" class="view" aria-labelledby="questionsTitle">
+      <div class="questions-hero">
+        <div><span class="pill">BHAAI PDFS · PRACTICE LIBRARY</span>
+          <h2 id="questionsTitle">1800+ SOLVED QUESTIONS</h2>
+          <p>Your GATE DA practice companion. Work through questions, review solutions, and revisit the concepts behind every answer.</p>
+        </div>
+        <div class="questions-count"><strong>1800+</strong><span>SOLVED QUESTIONS</span></div>
+      </div>
+      <div class="pdf-layout questions-layout">
+        <div class="card pdf-card questions-reader">
+          <div class="pdf-toolbar">
+            <span><b>GATE 2027 · DA</b><br>Data Science &amp; Artificial Intelligence</span>
+            <div>
+              <a class="link-btn" href="GATE%202027%20DATA%20SCIENCE%20%26%20ARTIFICIAL%20INTELLIGENCE_11zon.pdf" target="_blank" rel="noopener">Open PDF ↗</a>
+              <a class="link-btn green" href="GATE%202027%20DATA%20SCIENCE%20%26%20ARTIFICIAL%20INTELLIGENCE_11zon.pdf" download>Download PDF ↓</a>
+            </div>
+          </div>
+          <iframe id="questionsFrame" class="pdf-frame" data-src="GATE%202027%20DATA%20SCIENCE%20%26%20ARTIFICIAL%20INTELLIGENCE_11zon.pdf#toolbar=1&amp;view=FitH" title="1800+ solved questions for GATE Data Science and Artificial Intelligence"></iframe>
+          <p class="reader-help">PDF not displaying? Use Open PDF to read it in a new tab, or download a copy.</p>
+        </div>
+        <aside class="card questions-guide">
+          <span class="eyebrow">CONCEPTS TO PRACTICE</span>
+          <h3>Explore the 7 subjects</h3>
+          <p>Jump to a subject’s syllabus checklist to guide your practice.</p>
+          <div class="syllabus-nav">
+            <button onclick="openSection('probability')"><b>01</b> Probability & Statistics <span>›</span></button>
+            <button onclick="openSection('linear')"><b>02</b> Linear Algebra <span>›</span></button>
+            <button onclick="openSection('calculus')"><b>03</b> Calculus & Optimization <span>›</span></button>
+            <button onclick="openSection('dsa')"><b>04</b> Programming, Data Structures & Algorithms <span>›</span></button>
+            <button onclick="openSection('dbms')"><b>05</b> Database Management & Warehousing <span>›</span></button>
+            <button onclick="openSection('ml')"><b>06</b> Machine Learning <span>›</span></button>
+            <button onclick="openSection('ai')"><b>07</b> AI <span>›</span></button>
+          </div>
+
+          <div class="info-strip"><b>Make every question count</b><br>Attempt first → review the solution → record mistakes → retry during revision.</div>
+        </aside>
       </div>
     </section>
 
